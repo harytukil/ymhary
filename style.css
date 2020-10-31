@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background : linear-gradient(to right, black, white);
+    color: black;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid black;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+ul.submenu{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+
+ul.submenu li {
+    display: block;
+}
+ul.submenu li a {
+    display: block;
+    padding: 5px 10px;
+}
+header ul li {
+    display: inline-block;
+    position: relative;
+}
+header ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ header #branding, header .active a:hover{
+     color: white;
+     font-weight: bold; 
+ }
+
+ header a:hover{
+     color: white;
+     font-weight: bold;
+ }
+
+ #showcase{
+     min-height: 200px;
+     text-align: center;
+     color: black;
+ }
+
+ #showcase h1{
+     margin-top: 60px;
+     font-size: 55px;
+     margin-bottom: 10px;
+     text-shadow: 2px 2px 5px black;
+ }
+
+ #showcase p{
+     font-size: 20;
+ }
+
+ #cari {
+     padding: 15px;
+     color: black;
+     background : linear-gradient(to right, white, black);
+     border-bottom: 3px solid black;
+ }
+
+ #cari h1{
+     float: left;
+ }
+
+ #cari form{
+     float: right;
+     margin-top: 15px;
+ }
+
+ #cari input[type="cari..."]{
+     padding: 4px;
+     height: 25px;
+     width: 250px;
+ }
+
+ .buttonscr{
+     height: 25px;
+     background-color: white;
+     border-color: black;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+
+ #boxes{
+     margin-top: 20px;
+ }
+
+ #boxes .box{
+     float: left;
+     text-align: center;
+     width: 100%;
+     padding:20px;
+ }
